@@ -6,9 +6,7 @@
     font-family: "Comic Neue", serif;
 }
 
-#general {
-    float: left;
-}
+
 
 body {
     min-height: 100vh;
@@ -24,8 +22,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 #brillo {
@@ -52,9 +50,10 @@ body {
 .galeria {
     --d: 10s; 
     display: grid;
-    place-items:left;
+    place-items:center;
     width: 250px;
-    margin-left: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
     float: left;
 }
 
@@ -128,6 +127,10 @@ h1 {
 .container {
     width: 400px;
     float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+float:right;
+
 }
 
 .container > .envelope-wrapper {
